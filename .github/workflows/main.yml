@@ -3,8 +3,7 @@ name: upload website
 on:
   push:
     branches:
-      - main
- 
+      - main 
 jobs: 
   deploy:
     runs-on: self-hosted
